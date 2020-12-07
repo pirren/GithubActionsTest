@@ -3,7 +3,6 @@
 
 [![Actions Status](https://github.com/pirren/GithubActionsTest/workflows/CI/badge.svg)](https://github.com/pirren/GithubActionsTest/actions)
 
-
 ```yml
 name: Continous Integration
 
