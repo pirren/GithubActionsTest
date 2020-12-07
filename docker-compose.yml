@@ -1,0 +1,21 @@
+version: '3'
+services:
+  unittests:
+    image: mcr.microsoft.com/dotnet/nightly/sdk:5.0
+    volumes:
+      - .:/v
+    command:
+      - /bin/bash
+      - /v/Server.Tests/run-tests.sh
+  client:
+    depends_on:
+      - unittests
+    image: "blazor-docker:latest"
+    ports:
+      - "8080:80"
+  server:
+    depends_on:
+      - unittests
+    image: "server-docker:latest"
+    ports:
+      - "5001:80"
