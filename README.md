@@ -1,5 +1,5 @@
 <h1 align="center">GitHub Workflows</h1>
-<h2 align="center"> Actions and Continuous Integration</h2>
+<h3 align="center"> Actions and Continuous Integration</h3>
   
 ```yml
 name: Continous Integration
