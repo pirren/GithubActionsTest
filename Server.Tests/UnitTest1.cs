@@ -14,7 +14,7 @@ namespace BlazorApp.Server.Tests
 
             var result = controller.GetFoo();
 
-            Assert.Null(result);
+            Assert.IsType<OkResult>(result); 
         }
     }
 }
