@@ -1,6 +1,9 @@
-<h1 align="center">GitHub Workflows</h1>
-<h3 align="center"> Actions and Continuous Integration</h3>
-  
+<h1>GitHub Workflows</h1>
+<h3> Actions and Continuous Integration</h3>
+
+[![Actions Status](https://github.com/pirren/GithubActionsTest/workflows/CI/badge.svg)](https://github.com/pirren/GithubActionsTest/actions)
+
+
 ```yml
 name: Continous Integration
 
